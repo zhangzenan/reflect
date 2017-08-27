@@ -14,6 +14,10 @@ public class Person {
 	public Person() {
 
 	}
+	
+	private Person(String name){
+		this.name=name;
+	}
 
 	Person(String name, int age) {
 		this.name = name;
