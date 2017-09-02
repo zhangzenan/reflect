@@ -35,7 +35,7 @@ public class Person {
 	}
 
 	public void method(String s) {
-		System.out.println("method" + s);
+		System.out.println("method " + s);
 	}
 
 	public String getString(String s, int i) {
